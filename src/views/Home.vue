@@ -4,12 +4,12 @@
 <!--    <p><router-link :to="{name: 'moi-quan-he-giua-bo-va-me'}">Mối quan hệ bố mẹ</router-link></p>-->
 <!--    <p><router-link :to="{name: 'moi-quan-he-giua-toi-va-bo-me'}">Mối quan giữa bạn và bố mẹ</router-link></p>-->
 
-    <div class="game game1" style="background-image: url(game/74f85f499bf652a80be7.jpg);">
-      <div class="p1" @click="hide">1</div>
-      <div class="p2" @click="hide">2</div>
-      <div class="p3" @click="hide">3</div>
-      <div class="p4" @click="hide">4</div>
-    </div>
+    <p><router-link to="/game-1">Game 1</router-link></p>
+    <p><router-link to="/game-2">Game 2</router-link></p>
+    <p><router-link to="/game-3">Game 3</router-link></p>
+    <p><router-link to="/game-4">Game 4</router-link></p>
+    <p><router-link to="/game-5">Game 5</router-link></p>
+    <p><router-link to="/game-6">Game 6</router-link></p>
   </v-container>
 </template>
 
